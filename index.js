@@ -1,0 +1,1 @@
+export { CellsBbvaCardInsurance } from './src/CellsBbvaCardInsurance.js';
