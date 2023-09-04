@@ -20,7 +20,7 @@ bbva-core-icon {
 }
 
 .container {
-  width: 290px;
+  width: 90%;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 15px;
