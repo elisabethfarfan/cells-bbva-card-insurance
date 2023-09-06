@@ -46,12 +46,13 @@ export class CellsBbvaCardInsurance extends LitElement {
   }
 
   _onButtonClick() {
-    console.log('click');
     this.dispatchEvent(
       new CustomEvent('event-button', {
         bubbles: true,
         detail: {
           title: this.title,
+          description: this.description,
+          options: this.options
         },
       })
     );
